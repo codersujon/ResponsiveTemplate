@@ -30,7 +30,7 @@
 </template>
 
 <script>
-    import SectionTitle from '@/components/SectionTitle/SectionTitle'
+    import SectionTitle from '@/layouts/SectionTitle/SectionTitle'
     import ServiceItem from '@/components/Info/ServiceItem'
 
     export default {

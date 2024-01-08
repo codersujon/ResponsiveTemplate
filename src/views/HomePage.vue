@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import HeaderVue from '@/components/Home/HeaderVue'
+import HeaderVue from '@/layouts/Header/HeaderVue'
 import InfoSection from '@/components/Info/InfoSection'
 import ContentVue from '@/components/Content/ContentVue'
-import FooterVue from '@/components/Footer/FooterVue'
+import FooterVue from '@/layouts/Footer/FooterVue'
     export default {
         name: 'HomePage',
         components: {
