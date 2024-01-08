@@ -1,0 +1,227 @@
+/*==========================================================
+    Abstract:
+          => This Framework has been written
+          => MD.SUJAN AHMED
+============================================================*/
+
+/*Start Framework*/
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+body{
+  font-family: 'Didact Gothic', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+/*==========================================================
+    btn:-
+============================================================*/
+
+@media(min-width:480px){
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+  }
+  .btn-primary {
+    background-color: #2651a8;
+    border-color: #2651a8;
+  }
+}
+/*-----------------------------------------------------------*/
+@media(min-width:768px){
+  .btn{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+}
+/*==========================================================
+    Padding Section:-
+============================================================*/
+.info{
+  padding: 100px 0;
+}
+.content{
+  padding: 100px 0;
+}
+/*==========================================================
+    Margin:-
+============================================================*/
+@media(min-width:992){
+  .mb-5{
+    margin-bottom: 0 !important;
+  }
+}
+/*End Framework*/
+
+/*==========================================================
+    Header Start
+============================================================*/
+
+@media(min-width: 480px){
+  header{
+    background: url(../img/header-bg.jpg);
+    background-size: cover;
+    padding-bottom: 120px ;
+    background-attachment: fixed;
+  }
+  header .navbar{
+    padding: 1.1rem 1rem;
+  }
+  header nav .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .7);
+  }
+  header .navbar .navbar-nav{
+    padding-top: 20px;
+  }
+  header .head-info{
+    margin-top: 80px;
+  }
+  header .head-info h1{
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: whitesmoke;
+  }
+  header .head-info p{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+}
+/*-----------------------------------------------------------*/
+@media (min-width: 992px){
+  header{
+    background-size: cover;
+    padding-bottom: 120px ;
+  
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    font-size: 1.05rem;
+    color: rgba(0, 0, 0, .7) !important;
+    font-weight: 600;
+  }
+  header .navbar .navbar-nav{
+    padding-top: 0px;
+  }
+  header .head-info{
+    margin-top: 100px;
+  }
+  header .head-info h1{
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  header .head-info p{
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+  }
+}
+/*End Header*/
+
+
+/*==========================================================
+    start info
+============================================================*/
+@media(min-width:480px){
+  .info h2{
+    font-size: 2em;
+  }
+  .info i.fa{
+    font-size: 5em;
+    margin: 20px 0;
+    color: #2651a8;
+  }
+  .info p.text{
+    padding: 0 15px;
+    font-size: 1.08em;
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
+  .btn{
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+  }
+}
+/*-----------------------------------------------------------*/
+@media(min-width:768px){
+  .info h2{
+    font-size: 2.5em;
+  }
+  .info p.head{
+    font-size: 1.1em;
+  }
+}
+/*-----------------------------------------------------------*/
+@media(min-width:992px){
+  .info p.text{
+    font-size: 1.07em;
+    padding: 0 10px;
+  }
+}
+/*-----------------------------------------------------------*/
+@media(min-width:1200px){
+  .info p.text{
+    font-size: 1.05em;
+    padding: 0 45px;
+  }
+}
+/*End info*/
+
+/*==========================================================
+    start Contant
+============================================================*/
+@media(min-width:480px){
+  .content {
+    background-color: #2651a8;
+  }
+  .content p{
+    font-size: 1.3em;
+    line-height: 1.7;
+    margin-bottom: 60px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .content .btn-primary{
+    background-color: whitesmoke;
+    color: #2651a8;
+    font-size: 1.5em;
+  }
+  .content p a{
+    color: #fff;
+    text-decoration: underline;
+    transition: 5s;
+  }
+  .content p a:hover{
+    text-decoration: none;
+  }
+}
+@media(min-width:768px){
+  .content p{
+    font-size: 1.3em;
+    line-height: 1.7;
+    margin-bottom: 60px;
+  }
+}
+/*End Content*/
+
+/*==========================================================
+    start footer
+============================================================*/
+@media(min-width:480px){
+  footer p{
+    font-size: 1.1em;
+    color: white;
+    margin-bottom: 0;
+  }
+  footer p a{
+    text-decoration: underline;
+    color: white;
+  }
+  footer p a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+}
+/*End footer*/

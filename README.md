@@ -1,4 +1,4 @@
-# project1_cli
+# Responsive Template
 
 ## Project setup
 ```
