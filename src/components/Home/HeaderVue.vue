@@ -26,13 +26,17 @@
         <div class="head-info text-center text-white">
             <h1>Consectetuer adipiscing elit</h1>
             <p>Donec pulvinar ullamcorper metus</p>
-            <button class="btn btn-primary">Pulvinar mollis</button>
+            <SiteBtn btnName="Pulvinar mollis"/>
         </div>
     </header>
 </template>
 
 <script>
+import SiteBtn from '@/components/Button/SiteBtn'
     export default {
-       name: 'HeaderVue'
+       name: 'HeaderVue',
+       components:{
+        SiteBtn
+       }
     }
 </script>
